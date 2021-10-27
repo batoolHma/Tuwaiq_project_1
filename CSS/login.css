@@ -17,8 +17,8 @@ img{
 .loginbox {
     width: 320px;
     height: 430px;
-    background:white;
-    color: black;
+    background:black;
+    color: white;
     top: 50%;
     left: 50%;
     position: absolute;
@@ -70,8 +70,8 @@ input[type="password"] {
     border: none;
     outline: none;
     height: 40px;
-    background:black;
-    color:white;
+    background:white;
+    color:blue;
     font-size: 18px;
     border-radius: 20px
 }
@@ -79,16 +79,23 @@ input[type="password"] {
 .loginbox input[type="submit"]:hover {
     cursor: pointer;
     background: lavender;
-    color: #000
+    color:#000
 }
 
 .loginbox a {
     text-decoration: none;
     font-size: 12px;
     line-height: 20px;
-    color:black;
+    color:white;
 }
 
 .loginbox a:hover {
     color: #90c6db;
+}
+.hidden{
+    display: none;
+}
+.red{
+    text-align: center;
+    color: red;
 }

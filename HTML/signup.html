@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,19 +8,23 @@
     <title>sign up</title>
     <link rel="stylesheet" href="../CSS/signup.css">
 </head>
+
 <body>
-    <div class="signupbox"> <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSzzZcwfbFDthyK9k6w_kb_M5J8bRuOEn5NFw&usqp=CAU" class="avatar">
+    <div class="signupbox">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSzzZcwfbFDthyK9k6w_kb_M5J8bRuOEn5NFw&usqp=CAU"
+            class="avatar">
         <h1>SignUp Here</h1>
         <form method="post" action="#">
-            <p>email</p> <input type="text" name="" placeholder="Enter your email">
-            <p>your name</p> <input type="text" name="" placeholder="Enter your name"> 
-            <p>Username</p> <input type="text" name="" placeholder="Enter Username">
-            <p>Password</p> <input type="password" name="" placeholder="Enter Password"> <input type="submit" name="" value="Login"> <br> <a href="login.html">already have an account?</a>
-            
-        </div>
-        </form>
+            <p>email</p> <input id="name" type="text" name="" placeholder="Enter your email">
+            <p>Password</p> <input id="pw" type="password" name="" placeholder="Enter Password">
+            <button id="rgstr_btn" type="click" name="" value="signup" onclick="store()">signup</button>
+            <br> <a href="login.html">already have an account?</a>
+
     </div>
-  
-  
+    </form>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="../JS/login.js"></script>
 </body>
+
 </html>

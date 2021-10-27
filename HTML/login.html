@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,20 +10,21 @@
 </head>
 
 <body>
-    <div class="loginbox"> <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSzzZcwfbFDthyK9k6w_kb_M5J8bRuOEn5NFw&usqp=CAU" class="avatar">
+    <div class="loginbox"> <img
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSzzZcwfbFDthyK9k6w_kb_M5J8bRuOEn5NFw&usqp=CAU"
+            class="avatar">
         <h1>Login Here</h1>
-        <form method="post" action="#">
-            <p>Username</p> <input type="text" name="" placeholder="Enter Username">
-            <p>Password</p> <input type="password" name="" placeholder="Enter Password"> <input type="submit" name="" value="Login"> <br> <a href="signup.html">Don't have an account?</a>
-            
-        </form>
-        
+        <h4 id="alert" class="red hidden">empty values</h4>
+        <p>Email</p> <input id="name" type="text" name="" placeholder="email">
+        <p>Password</p> <input id="pw" type="password" name="" placeholder="Enter Password">
+        <button id="login_btn" type="click" name="" value="Login" onclick="check()">login</button> <br>
+        <a href="signup.html">Don't have an account?</a>
+
+
     </div>
-    
-    </body>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="../JS/login.js"></script>
+</body>
+
 </html>
-
-
-
-
-

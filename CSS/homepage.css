@@ -47,6 +47,7 @@ h1{
     border-top-right-radius: 20px;
 }
 .btn{
+    border-radius: 20px;
     text-align: center;
     text-shadow: black;
     font-family: 'Scheherazade', serif;
@@ -66,4 +67,17 @@ h1{
        font-family: 'Lateef', cursive;
     }
     
+}*/
+.GFG{
+    border-radius: 20px;
+    text-align: center;
+    text-shadow:black;
+    color: white;
+    font-family: 'Scheherazade', serif;
+    background-color:black;
+    border: none;
+   padding: 5px 5px 5px 0.5em
+}
+.GFG:hover{
+    background-color: gold;
 }
