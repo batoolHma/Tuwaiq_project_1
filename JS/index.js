@@ -1,24 +1,24 @@
-$(document).ready(function(){
-    $('#farmer').click(function(){
+$(document).ready(function () {
+  $('#farmer').click(function () {
 
-        sessionStorage.setItem('name', 'farmer');
-        
-    })
-    $('#lion').click(function(){
-        sessionStorage.setItem('name','lion');
-    })
-    $('#lair').click(function(){
-        sessionStorage.setItem('name','lair');
+    sessionStorage.setItem('name', 'farmer');
+
+  })
+  $('#lion').click(function () {
+    sessionStorage.setItem('name', 'lion');
   
   })
-  $('#fox').click(function(){
-    sessionStorage.setItem('name','fox');
+  $('#lair').click(function () {
+    sessionStorage.setItem('name', 'lair');
+
   })
-  $('#horse').click(function(){
-    sessionStorage.setItem('name','horse');
+  $('#fox').click(function () {
+    sessionStorage.setItem('name', 'fox');
   })
-  $('#rabit').click(function(){
-    sessionStorage.setItem('name','rabit');
+  $('#horse').click(function () {
+    sessionStorage.setItem('name', 'horse');
+  })
+  $('#rabit').click(function () {
+    sessionStorage.setItem('name', 'rabit');
   })
 })
-

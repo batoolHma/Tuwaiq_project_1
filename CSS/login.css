@@ -1,13 +1,13 @@
 body {
     margin: 0;
     padding: 0;
-    background-color:white;
-    /*background: url(images/cn.jpg);*/
-    
-  
+    background-color: white;
+
+
 }
-img{
-    display:block;
+
+img {
+    display: block;
     width: 30%;
     height: 30%;
     padding: 5px 5px 5px;
@@ -17,13 +17,13 @@ img{
 .loginbox {
     width: 320px;
     height: 430px;
-    background:black;
+    background: black;
     color: white;
     top: 50%;
     left: 50%;
     position: absolute;
     transform: translate(-50%, -50%);
-    /*box-sizing: border-box; بغيره بعدين*/ 
+    /*box-sizing: border-box; بغيره بعدين*/
     padding: 70px 30px;
     border-style: solid;
 }
@@ -70,32 +70,34 @@ input[type="password"] {
     border: none;
     outline: none;
     height: 40px;
-    background:white;
-    color:blue;
+    background: white;
+    color: blue;
     font-size: 18px;
     border-radius: 20px
 }
 
-.loginbox input[type="submit"]:hover {
+.loginbox input[type="click"]:hover {
     cursor: pointer;
     background: lavender;
-    color:#000
+    color: #000
 }
 
 .loginbox a {
     text-decoration: none;
     font-size: 12px;
     line-height: 20px;
-    color:white;
+    color: white;
 }
 
 .loginbox a:hover {
     color: #90c6db;
 }
-.hidden{
+
+.hidden {
     display: none;
 }
-.red{
+
+.red {
     text-align: center;
     color: red;
 }

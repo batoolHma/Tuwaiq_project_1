@@ -1,63 +1,67 @@
-body{
-    background-color:white;
-   /* background-image:linear-gradient(to bottom, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.73)), url(../HTML/images/backgraound.png);*/
-    background-size: cover;
-    background-attachment: fixed;
+body {
+    background-color: white;
+    /* background-size: cover;
+    background-attachment: fixed;*/
     text-align: center;
     font-size: larger;
-   
+
 }
-h1{
-   /* background-color: #D3E4CD;*/
-    text-align:center;
-    font-size:3cm; 
-   color:black;
+
+h1 {
+    background-color: #D3E4CD;
+    text-align: center;
+    font-size: 3cm;
+    color: black;
     font-family: 'Rampart One', cur;
-    
+
 }
-.logo{
+
+/*.logo{
     display:inline-block;
     margin-right:200px;
     width: 50;
     height: 50;
-}
-.navbar{
+}*/
+.navbar {
     margin: 0;
     text-align: center;
-
-   
 }
 
-
-.myImg
-{
+/*الصور اللي داخل الكاردز*/
+.myImg {
     height: 200px;
     width: 100%;
 
 }
-.card{
+
+.card {
     border-radius: 20px;
-   margin: 20px;
-   background-color: white;
-   padding: auto;
-   font-family: 'Lateef', cursive;
+    margin: 20px;
+    background-color: white;
+    padding: auto;
+    font-family: 'Lateef', cursive;
 }
-.card-img-top{
+
+.card-img-top {
     border-top-left-radius: 20px;
+    /*عشان يخلي لها انحناء من فوق*/
     border-top-right-radius: 20px;
 }
-.btn{
+
+.btn {
     border-radius: 20px;
     text-align: center;
     text-shadow: black;
     font-family: 'Scheherazade', serif;
-    background-color:black;
+    background-color: black;
     border: none;
 }
-.btn:hover{
-   
-   background: gold;
+
+.btn:hover {
+
+    background: gold;
 }
+
 /*@media screen and(min-width:576px) {
     .card{
         border-radius: 20px;
@@ -68,16 +72,17 @@ h1{
     }
     
 }*/
-.GFG{
+.GFG  {
     border-radius: 20px;
     text-align: center;
-    text-shadow:black;
+    text-shadow: black;
     color: white;
     font-family: 'Scheherazade', serif;
-    background-color:black;
+    background-color: black;
     border: none;
-   padding: 5px 5px 5px 0.5em
+    padding: 5px 5px 5px 0.5em
 }
-.GFG:hover{
+
+.GFG:hover {
     background-color: gold;
 }
