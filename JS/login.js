@@ -1,15 +1,7 @@
 function store() {
     let name = document.getElementById('name');
     let pw = document.getElementById('pw');
-    /* let lowerCaseLetters = /[a-z]/g;
-    let upperCaseLetters = /[A-Z]/g;
-    let numbers = /[0-9]/g;
-*/
-    if (name.name == "" || pw.pw == "") {
-        $('#alert').removeClass('hidden'); //hmood code
-    }
-
-
+   
     if (name.value.length == 0) {
         alert('Please fill in email');
 
@@ -20,16 +12,7 @@ function store() {
         alert('Please fill in email and password');
 
     }
-    /*else if(!pw.value.match(numbers)){//
-            alert('please add 1 number');
-
-        }else if(!pw.value.match(upperCaseLetters)){
-            alert('please add 1 uppercase letter');
-
-        }else if(!pw.value.match(lowerCaseLetters)){
-            alert('please add 1 lovercase letter');
-
-        }*/
+    
     else {
         localStorage.setItem('name', name.value);
         localStorage.setItem('pw', pw.value);

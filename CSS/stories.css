@@ -1,5 +1,8 @@
 body{
     background-color:white;
+background: linear-gradient(to bottom, rgba(225,225,225,0.5),rgba(225,225,225,0.73)),url(https://www.wallpaperbetter.com/wallpaper/400/515/788/kids-cute-background-free-hd-widescreen-s-1080P-wallpaper.jpg);
+   background-size: cover;
+    background-attachment: fixed;
     color: black;
     padding: 50px 50px 50px;
     text-align: center;
@@ -7,23 +10,42 @@ body{
     margin-right: auto;
 }
 
-
+img{
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    height: 200px;
+    width: 50%;
+    padding-bottom: 10px;
+}
 
 
 h1{
+   
+
     font-size: 2cm;
     text-align: center;
-    font-family:fantasy;
-    color:black;
+    font-family: 'Lalezar', cursive;
+    color:#34626C;
+    
    
 }
-p{  text-align: right;
-font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+p{  
+    text-align: right;
+    font-family: 'Lalezar', cursive;
     display:inline-block;
     left: 50%;
-    font-size: 20px;
+    font-size: 25px;
     color:black;
+    background-color: white;
     padding: 50px;
+    border: solid;
+    border: white;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
 
 }
 .farmer{
